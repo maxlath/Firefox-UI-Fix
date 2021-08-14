@@ -37,7 +37,8 @@
   :root {
     /* Tab Bar */
     --proton-tab-block-margin: 0 !important; /* Original: 4px */
-    --inline-tab-padding:      6px !important; /* Original: 8px */
+    --inline-tab-padding:      8px !important; /* Original: 8px */
+    --tab-block-margin:        0 !important; /* Original: 4px */
 
     /* Panel */
     --arrowpanel-menuicon-padding: 8px;
