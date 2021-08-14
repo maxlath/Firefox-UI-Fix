@@ -923,3 +923,13 @@
     list-style-image: url(chrome://global/skin/icons/settings.svg);
   }
 }
+
+/* Hide prev/next navigation buttons */
+/* toolbarbutton#back-button, toolbarbutton#forward-button{
+  display: none;
+} */
+
+/* Hide multi-account container button in urlbar */
+#pageAction-urlbar-_testpilot-containers{
+  display: none;
+}
