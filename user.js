@@ -1,5 +1,15 @@
+//
+//
+// EXPLAINATION:
+// This works by setting preferences at Firefox bootup
+// So to toggle a preference, you can't just comment one of the following lines out
+// You need to set it to false
+//
+//
+//
+
 // ** Theme Related Options ****************************************************
-// userchrome.css usercontent.css activate
+// userChrome.css userContent.css activate
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // Fill SVG Color
@@ -16,4 +26,4 @@ user_pref("browser.compactmode.show", true);
 
 // ** Useful Options ***********************************************************
 // Integrated calculator at urlbar
-user_pref("browser.urlbar.suggest.calculator", true);
+// user_pref("browser.urlbar.suggest.calculator", true);
